@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/buscador-api-hooks/static/css/main.68f741b3.css",
+    "main.js": "/buscador-api-hooks/static/js/main.5f278bce.js",
+    "index.html": "/buscador-api-hooks/index.html",
+    "main.68f741b3.css.map": "/buscador-api-hooks/static/css/main.68f741b3.css.map",
+    "main.5f278bce.js.map": "/buscador-api-hooks/static/js/main.5f278bce.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.68f741b3.css",
+    "static/js/main.5f278bce.js"
+  ]
+}
