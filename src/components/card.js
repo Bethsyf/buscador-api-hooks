@@ -1,3 +1,4 @@
+import { Card } from 'antd';
 import React, { useEffect, useState } from 'react';
 import { getData } from '../helpers/getData';
 
@@ -32,21 +33,24 @@ const CardList = ({categoria}) => {
       }, [categoria])
 
     return (
-        <div>
-         <ol>
+        <div orientation="left">
              {
                  urlGifts.map((item, index) => {
 
                     return (
-                        <li key={index}>
+                        <Card hoverable
+                        style={{ width: 240}} key={index} cover={<img
+                            alt={item.title} src={item.url}
+                            />
+                          }>
+                              
                             <h3>{item.title}</h3>
-                            <img alt={item.title} src={item.url}/>
-                        </li>
+                            
+                        </Card>
                     )
                  })
              }
-         </ol>
-        </div>
+         </div>
     )
 }
 

@@ -29,16 +29,16 @@ const CategoriesApp = () => {
 
     return (
         <>
-            <div>
+            <div >
                 <form onSubmit={handleSubmit}>
-                    <Search
+                    <Search 
                         ref={searchref}
                         placeholder="input search text"
                         allowClear
                         onChange={handleChange}
                         enterButton="Search"
                         size="large"
-                        
+                        style={{ width: 300 }}                                             
                     />
                 </form>
             </div>
